@@ -1,0 +1,109 @@
+{
+  "name": "@zos-apps/signal",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.signal",
+    "name": "Signal",
+    "icon": "🔒",
+    "category": "communication",
+    "description": "Private, encrypted messaging",
+    "permissions": [
+      "network",
+      "notifications"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 900,
+        "height": 650
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "messaging",
+      "encrypted",
+      "privacy",
+      "secure"
+    ],
+    "about": "Private, end-to-end encrypted messaging.",
+    "help": [
+      "Start a conversation",
+      "Send messages",
+      "Make secure calls"
+    ],
+    "docs": "https://zos-apps.github.io/signal",
+    "site": "https://github.com/zos-apps/signal",
+    "features": [
+      "E2E encryption",
+      "Voice calls",
+      "Video calls",
+      "Groups",
+      "Disappearing messages"
+    ],
+    "shortcuts": [
+      "⌘N New message",
+      "⌘⏎ Send",
+      "⌘⇧D Delete"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/signal"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/signal/issues",
+    "changelog": "https://github.com/zos-apps/signal/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Private, encrypted messaging",
+  "homepage": "https://zos-apps.github.io/signal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/signal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/signal/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "signal",
+    "messaging",
+    "encrypted",
+    "privacy",
+    "secure"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
